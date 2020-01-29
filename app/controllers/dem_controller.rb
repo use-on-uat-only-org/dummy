@@ -1,0 +1,2 @@
+class DemController < ApplicationController
+end
