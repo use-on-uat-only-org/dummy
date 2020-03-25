@@ -1,0 +1,14 @@
+<tbody>
+    <% @projects.each do |project| %>
+      <tr>
+        <td><%= project.name %></td>
+        <td><%= project.description %></td>
+        <td><%= project.start_date %></td>
+        <td><%= project.end_date %></td>
+        <td><%= project.status %></td>
+        <td>show</td>
+        <td>edit</td>
+        <td>destroy</td>
+        </tr>
+    <% end %>
+  </tbody>

@@ -1,0 +1,22 @@
+<h3 id="notice"><%= notice %></h3>
+
+<h1>Projects</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Start date</th>
+      <th>End date</th>
+      <th>Status</th>
+      <th colspan="4"></th>
+    </tr>
+  </thead>
+
+  <%= render 'project_list'%>
+</table>
+
+<br>
+
+<%= link_to 'New Project', new_project_path %>
