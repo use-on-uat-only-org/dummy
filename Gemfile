@@ -58,5 +58,5 @@ gem 'awesome_print-carrierwave'
 gem 'pundit'
 
 gem 'rest-client'
-gem 'stripe'
+gem 'stripe', '>= 2.15'
 gem 'sentry-raven'
